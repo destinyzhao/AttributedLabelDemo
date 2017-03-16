@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B21B00EB0A6B900FC9C544C0EF68A8 /* TYAttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B9378CE26BE1894632AACD54BADA77 /* TYAttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A22EA904D0673F6262959585197CC28 /* TYTextStorageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DD98528356CECB5E23FCFA8184DDC7 /* TYTextStorageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152D03C020F77811F4BADD7DA8D2C7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1E371F09C84973472F7AE7F903C406E5 /* TYTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = AC86FC5CE51D43F330E0986A3EBABEA9 /* TYTextStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		206BE865CFECBA5E78A4597BE5B8707F /* TYTextContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FC02A7AA80D995D5E05552C358B090 /* TYTextContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22688720A28F202C378E49FBF930551F /* Pods-AttributedLabelDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E671908663D17CB468C446A30C866584 /* Pods-AttributedLabelDemo-dummy.m */; };
+		26049506095385518A91A796F0E20F47 /* TYLinkTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2CEFD3EB663EED5417F140F194C391 /* TYLinkTextStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371E0CB963847DB0B1249DBCDCCF660D /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA4C80F78943DDD054FAF42841EEF3 /* TYImageStorage.m */; };
+		504D329F1D416A129043A016438C9E33 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD4FB6CE75DE2A661D2AC336A84C68 /* TYTextContainer.m */; };
+		58D236FBB0124384226B13BA7321C494 /* TYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4AC255ADBCCE6C766405ACF98097D3 /* TYImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F45858BCC6317342F54B825DAC2834B /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E8A7A13C210168584A6FA6A2E3C73E /* TYLinkTextStorage.m */; };
+		61FA16E27CD1D8FCD48FFBAA3C95B383 /* Pods-AttributedLabelDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF9F233B4E362996A51A8B465BCE4DD /* Pods-AttributedLabelDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6235ACCED481ADAEDA53449BB0D51CFB /* TYAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 947EF09E175D0FFD3A2ED5F3BA6319EA /* TYAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81249E245CCDF954A8DC05508EDB0FE1 /* TYDrawStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7B760D075663CA01E0958C4B6E6BA9 /* TYDrawStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8313574C2AB81AC2D50BE79FD312B4E4 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E58A4F83E0FC7960385E4A7ADF3523C4 /* TYAttributedLabel.m */; };
+		84E1DA79D454DD925FAEEEF6976AB302 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD300D7D1A2D96C24505C9AC7A70380 /* TYTextContainer+Extended.m */; };
+		9936F1A09942CB79794F64A3D5FF9101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A5DBB6157AB0D01DCEDC227411D62A6A /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB09B7E36A922C22E3638A616B42F19 /* TYViewStorage.m */; };
+		A9AA39DCA76052D1BEAC6ED1742CB4BF /* TYViewStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8F6FC1E6A6EC92F974BAAC8AB01F18 /* TYViewStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58EEF186994A8DBD180C8FCBBF6EAAC /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3769D7FA10444D4D1B67E68E6B4AB /* NSMutableAttributedString+TY.m */; };
+		C86728CC8EC550DD4ECA184A6654504A /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ED51A1FBF3A4E932416FADEDADEA43 /* TYDrawStorage.m */; };
+		D319530F18321CC6381BE9514E806C32 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA87871AFF25C8CCFFC49E59EC8060 /* TYImageCache.m */; };
+		D63B1B9D300AD522893033F1B28EF9C0 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBD65835A6CFC964304E04613E9C449 /* TYTextStorage.m */; };
+		DEA1E84A1A226CD7A31114BBA5E87D29 /* TYImageStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C697B3925C3852CAA0BA59FA34092E82 /* TYImageStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17F7960B1552E41E4536C4F807B5AC3 /* TYAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0687942F6E1E0D44191861D2DE27AC5 /* TYAttributedLabel-dummy.m */; };
+		F390117F9AA1DFF70569A5F873CC0ED8 /* NSMutableAttributedString+TY.h in Headers */ = {isa = PBXBuildFile; fileRef = 230F482F1FDBEC4873FEAEDACCB2C493 /* NSMutableAttributedString+TY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D8DE00C36C949097F52A059546B933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9CBE6B59344D0F40F588E6087131BA;
+			remoteInfo = TYAttributedLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE6C4E06806EFD21D24CA425BC57FBE /* TYAttributedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYAttributedLabel.xcconfig; sourceTree = "<group>"; };
+		0DFD4FB6CE75DE2A661D2AC336A84C68 /* TYTextContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTextContainer.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYTextContainer.m; sourceTree = "<group>"; };
+		1C089696A57D463B6233BD5185B00204 /* TYAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
+		1CD300D7D1A2D96C24505C9AC7A70380 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TYTextContainer+Extended.m"; path = "TYAttributedLabelDemo/TYAttributedLabel/TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		1DBD65835A6CFC964304E04613E9C449 /* TYTextStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYTextStorage.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYTextStorage.m; sourceTree = "<group>"; };
+		230F482F1FDBEC4873FEAEDACCB2C493 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+TY.h"; path = "TYAttributedLabelDemo/TYAttributedLabel/NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		38263D9CCEBF7FF7C285699271EE8860 /* Pods_AttributedLabelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AttributedLabelDemo.framework; path = "Pods-AttributedLabelDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8A7A13C210168584A6FA6A2E3C73E /* TYLinkTextStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYLinkTextStorage.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYLinkTextStorage.m; sourceTree = "<group>"; };
+		3DF5D3D414FD1208B66B3A37AD4982C3 /* Pods-AttributedLabelDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AttributedLabelDemo.modulemap"; sourceTree = "<group>"; };
+		4704243C177BD312D55D73FFFE963ADF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C839B5516330B53F14336467FF5A85 /* Pods-AttributedLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttributedLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		52FC02A7AA80D995D5E05552C358B090 /* TYTextContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTextContainer.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYTextContainer.h; sourceTree = "<group>"; };
+		54ED51A1FBF3A4E932416FADEDADEA43 /* TYDrawStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYDrawStorage.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYDrawStorage.m; sourceTree = "<group>"; };
+		56BB9027867135DE398E61D73A609B61 /* TYAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYAttributedLabel.framework; path = TYAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2CEFD3EB663EED5417F140F194C391 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYLinkTextStorage.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYLinkTextStorage.h; sourceTree = "<group>"; };
+		627FC05843D2C75C1B5816F46DE37715 /* TYAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TYAttributedLabel.modulemap; sourceTree = "<group>"; };
+		68F3769D7FA10444D4D1B67E68E6B4AB /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+TY.m"; path = "TYAttributedLabelDemo/TYAttributedLabel/NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		69CA87871AFF25C8CCFFC49E59EC8060 /* TYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYImageCache.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYImageCache.m; sourceTree = "<group>"; };
+		6BF9F233B4E362996A51A8B465BCE4DD /* Pods-AttributedLabelDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AttributedLabelDemo-umbrella.h"; sourceTree = "<group>"; };
+		713D3C8536BCD7BC822E53A524ADD169 /* Pods-AttributedLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttributedLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		918BFE9993D796E17714C3B9CCF130E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DD98528356CECB5E23FCFA8184DDC7 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTextStorageProtocol.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947EF09E175D0FFD3A2ED5F3BA6319EA /* TYAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYAttributedLabel.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYAttributedLabel.h; sourceTree = "<group>"; };
+		94B9378CE26BE1894632AACD54BADA77 /* TYAttributedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYAttributedLabel-umbrella.h"; sourceTree = "<group>"; };
+		AC86FC5CE51D43F330E0986A3EBABEA9 /* TYTextStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTextStorage.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYTextStorage.h; sourceTree = "<group>"; };
+		AFB09B7E36A922C22E3638A616B42F19 /* TYViewStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYViewStorage.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYViewStorage.m; sourceTree = "<group>"; };
+		C0687942F6E1E0D44191861D2DE27AC5 /* TYAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYAttributedLabel-dummy.m"; sourceTree = "<group>"; };
+		C697B3925C3852CAA0BA59FA34092E82 /* TYImageStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYImageStorage.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYImageStorage.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEBA4C80F78943DDD054FAF42841EEF3 /* TYImageStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYImageStorage.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYImageStorage.m; sourceTree = "<group>"; };
+		D3FD0A351206A78188A8951159C40104 /* Pods-AttributedLabelDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttributedLabelDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD4AC255ADBCCE6C766405ACF98097D3 /* TYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYImageCache.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYImageCache.h; sourceTree = "<group>"; };
+		DD8F6FC1E6A6EC92F974BAAC8AB01F18 /* TYViewStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYViewStorage.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYViewStorage.h; sourceTree = "<group>"; };
+		E326CEBB36482B3A03AC0167E79A39CA /* Pods-AttributedLabelDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AttributedLabelDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E58A4F83E0FC7960385E4A7ADF3523C4 /* TYAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYAttributedLabel.m; path = TYAttributedLabelDemo/TYAttributedLabel/TYAttributedLabel.m; sourceTree = "<group>"; };
+		E671908663D17CB468C446A30C866584 /* Pods-AttributedLabelDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttributedLabelDemo-dummy.m"; sourceTree = "<group>"; };
+		EACE5C4475DC5E0756F29FDBF9BE1CF8 /* Pods-AttributedLabelDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AttributedLabelDemo-resources.sh"; sourceTree = "<group>"; };
+		FD40BA31BB433EB054B35276BE5CEB94 /* Pods-AttributedLabelDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AttributedLabelDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE7B760D075663CA01E0958C4B6E6BA9 /* TYDrawStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYDrawStorage.h; path = TYAttributedLabelDemo/TYAttributedLabel/TYDrawStorage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E9BB17235A735BF21A8F4EFA2CFA418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9936F1A09942CB79794F64A3D5FF9101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FA381DAE4933D8C64D1A358683E664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152D03C020F77811F4BADD7DA8D2C7EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066BF37422BB0463DBC5B375B0AF8C46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28EB1E6DF260D40C69849DF73AAF64C /* Pods-AttributedLabelDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AB22E829FB0798CCFC2A3BE2AF0F38B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4704243C177BD312D55D73FFFE963ADF /* Info.plist */,
+				627FC05843D2C75C1B5816F46DE37715 /* TYAttributedLabel.modulemap */,
+				0DE6C4E06806EFD21D24CA425BC57FBE /* TYAttributedLabel.xcconfig */,
+				C0687942F6E1E0D44191861D2DE27AC5 /* TYAttributedLabel-dummy.m */,
+				1C089696A57D463B6233BD5185B00204 /* TYAttributedLabel-prefix.pch */,
+				94B9378CE26BE1894632AACD54BADA77 /* TYAttributedLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYAttributedLabel";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		79CF638BB0CB30970A845C0BACC0DDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38263D9CCEBF7FF7C285699271EE8860 /* Pods_AttributedLabelDemo.framework */,
+				56BB9027867135DE398E61D73A609B61 /* TYAttributedLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CDFA46DE2141A3CAFD3EBC1C8CBCB30F /* Pods */,
+				79CF638BB0CB30970A845C0BACC0DDAC /* Products */,
+				066BF37422BB0463DBC5B375B0AF8C46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8297D41FFE272BA82DA99228DB7389AE /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				230F482F1FDBEC4873FEAEDACCB2C493 /* NSMutableAttributedString+TY.h */,
+				68F3769D7FA10444D4D1B67E68E6B4AB /* NSMutableAttributedString+TY.m */,
+				947EF09E175D0FFD3A2ED5F3BA6319EA /* TYAttributedLabel.h */,
+				E58A4F83E0FC7960385E4A7ADF3523C4 /* TYAttributedLabel.m */,
+				FE7B760D075663CA01E0958C4B6E6BA9 /* TYDrawStorage.h */,
+				54ED51A1FBF3A4E932416FADEDADEA43 /* TYDrawStorage.m */,
+				DD4AC255ADBCCE6C766405ACF98097D3 /* TYImageCache.h */,
+				69CA87871AFF25C8CCFFC49E59EC8060 /* TYImageCache.m */,
+				C697B3925C3852CAA0BA59FA34092E82 /* TYImageStorage.h */,
+				CEBA4C80F78943DDD054FAF42841EEF3 /* TYImageStorage.m */,
+				5D2CEFD3EB663EED5417F140F194C391 /* TYLinkTextStorage.h */,
+				39E8A7A13C210168584A6FA6A2E3C73E /* TYLinkTextStorage.m */,
+				52FC02A7AA80D995D5E05552C358B090 /* TYTextContainer.h */,
+				0DFD4FB6CE75DE2A661D2AC336A84C68 /* TYTextContainer.m */,
+				1CD300D7D1A2D96C24505C9AC7A70380 /* TYTextContainer+Extended.m */,
+				AC86FC5CE51D43F330E0986A3EBABEA9 /* TYTextStorage.h */,
+				1DBD65835A6CFC964304E04613E9C449 /* TYTextStorage.m */,
+				92DD98528356CECB5E23FCFA8184DDC7 /* TYTextStorageProtocol.h */,
+				DD8F6FC1E6A6EC92F974BAAC8AB01F18 /* TYViewStorage.h */,
+				AFB09B7E36A922C22E3638A616B42F19 /* TYViewStorage.m */,
+				2AB22E829FB0798CCFC2A3BE2AF0F38B /* Support Files */,
+			);
+			name = TYAttributedLabel;
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28EB1E6DF260D40C69849DF73AAF64C /* Pods-AttributedLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				918BFE9993D796E17714C3B9CCF130E2 /* Info.plist */,
+				3DF5D3D414FD1208B66B3A37AD4982C3 /* Pods-AttributedLabelDemo.modulemap */,
+				FD40BA31BB433EB054B35276BE5CEB94 /* Pods-AttributedLabelDemo-acknowledgements.markdown */,
+				D3FD0A351206A78188A8951159C40104 /* Pods-AttributedLabelDemo-acknowledgements.plist */,
+				E671908663D17CB468C446A30C866584 /* Pods-AttributedLabelDemo-dummy.m */,
+				E326CEBB36482B3A03AC0167E79A39CA /* Pods-AttributedLabelDemo-frameworks.sh */,
+				EACE5C4475DC5E0756F29FDBF9BE1CF8 /* Pods-AttributedLabelDemo-resources.sh */,
+				6BF9F233B4E362996A51A8B465BCE4DD /* Pods-AttributedLabelDemo-umbrella.h */,
+				713D3C8536BCD7BC822E53A524ADD169 /* Pods-AttributedLabelDemo.debug.xcconfig */,
+				49C839B5516330B53F14336467FF5A85 /* Pods-AttributedLabelDemo.release.xcconfig */,
+			);
+			name = "Pods-AttributedLabelDemo";
+			path = "Target Support Files/Pods-AttributedLabelDemo";
+			sourceTree = "<group>";
+		};
+		CDFA46DE2141A3CAFD3EBC1C8CBCB30F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8297D41FFE272BA82DA99228DB7389AE /* TYAttributedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36FF6C2C9F84EF4B780D5D5443983FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FA16E27CD1D8FCD48FFBAA3C95B383 /* Pods-AttributedLabelDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D04E8B57CDA406E04F74EE14F53B73E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390117F9AA1DFF70569A5F873CC0ED8 /* NSMutableAttributedString+TY.h in Headers */,
+				02B21B00EB0A6B900FC9C544C0EF68A8 /* TYAttributedLabel-umbrella.h in Headers */,
+				6235ACCED481ADAEDA53449BB0D51CFB /* TYAttributedLabel.h in Headers */,
+				81249E245CCDF954A8DC05508EDB0FE1 /* TYDrawStorage.h in Headers */,
+				58D236FBB0124384226B13BA7321C494 /* TYImageCache.h in Headers */,
+				DEA1E84A1A226CD7A31114BBA5E87D29 /* TYImageStorage.h in Headers */,
+				26049506095385518A91A796F0E20F47 /* TYLinkTextStorage.h in Headers */,
+				206BE865CFECBA5E78A4597BE5B8707F /* TYTextContainer.h in Headers */,
+				1E371F09C84973472F7AE7F903C406E5 /* TYTextStorage.h in Headers */,
+				0A22EA904D0673F6262959585197CC28 /* TYTextStorageProtocol.h in Headers */,
+				A9AA39DCA76052D1BEAC6ED1742CB4BF /* TYViewStorage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F9CBE6B59344D0F40F588E6087131BA /* TYAttributedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B1CEBC9AECE64DB5ECB305E671AFB6 /* Build configuration list for PBXNativeTarget "TYAttributedLabel" */;
+			buildPhases = (
+				C7C07A9660F22B110CAA25564EDDE28D /* Sources */,
+				2E9BB17235A735BF21A8F4EFA2CFA418 /* Frameworks */,
+				7D04E8B57CDA406E04F74EE14F53B73E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYAttributedLabel;
+			productName = TYAttributedLabel;
+			productReference = 56BB9027867135DE398E61D73A609B61 /* TYAttributedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F4DA9A739F592F52AFE736977E36F80 /* Pods-AttributedLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408C92D7F95B9F1FAB4EA1AA8373D3D5 /* Build configuration list for PBXNativeTarget "Pods-AttributedLabelDemo" */;
+			buildPhases = (
+				32FF0C3D9D648F973C09340F38F335FE /* Sources */,
+				B9FA381DAE4933D8C64D1A358683E664 /* Frameworks */,
+				36FF6C2C9F84EF4B780D5D5443983FE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44225F5AAF1210FE6EEBF229AB31E2E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AttributedLabelDemo";
+			productName = "Pods-AttributedLabelDemo";
+			productReference = 38263D9CCEBF7FF7C285699271EE8860 /* Pods_AttributedLabelDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79CF638BB0CB30970A845C0BACC0DDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4DA9A739F592F52AFE736977E36F80 /* Pods-AttributedLabelDemo */,
+				2F9CBE6B59344D0F40F588E6087131BA /* TYAttributedLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FF0C3D9D648F973C09340F38F335FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22688720A28F202C378E49FBF930551F /* Pods-AttributedLabelDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C07A9660F22B110CAA25564EDDE28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58EEF186994A8DBD180C8FCBBF6EAAC /* NSMutableAttributedString+TY.m in Sources */,
+				F17F7960B1552E41E4536C4F807B5AC3 /* TYAttributedLabel-dummy.m in Sources */,
+				8313574C2AB81AC2D50BE79FD312B4E4 /* TYAttributedLabel.m in Sources */,
+				C86728CC8EC550DD4ECA184A6654504A /* TYDrawStorage.m in Sources */,
+				D319530F18321CC6381BE9514E806C32 /* TYImageCache.m in Sources */,
+				371E0CB963847DB0B1249DBCDCCF660D /* TYImageStorage.m in Sources */,
+				5F45858BCC6317342F54B825DAC2834B /* TYLinkTextStorage.m in Sources */,
+				84E1DA79D454DD925FAEEEF6976AB302 /* TYTextContainer+Extended.m in Sources */,
+				504D329F1D416A129043A016438C9E33 /* TYTextContainer.m in Sources */,
+				D63B1B9D300AD522893033F1B28EF9C0 /* TYTextStorage.m in Sources */,
+				A5DBB6157AB0D01DCEDC227411D62A6A /* TYViewStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44225F5AAF1210FE6EEBF229AB31E2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYAttributedLabel;
+			target = 2F9CBE6B59344D0F40F588E6087131BA /* TYAttributedLabel */;
+			targetProxy = 50D8DE00C36C949097F52A059546B933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0A475B539878C9902EDC7BFF7E432652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE6C4E06806EFD21D24CA425BC57FBE /* TYAttributedLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TYAttributedLabel/TYAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYAttributedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYAttributedLabel/TYAttributedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TYAttributedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D52E0C53C3D6116CC217362BD8D42F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE6C4E06806EFD21D24CA425BC57FBE /* TYAttributedLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TYAttributedLabel/TYAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYAttributedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYAttributedLabel/TYAttributedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TYAttributedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85819DCC7CE390DAFB1238C524139B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C839B5516330B53F14336467FF5A85 /* Pods-AttributedLabelDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AttributedLabelDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttributedLabelDemo/Pods-AttributedLabelDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AttributedLabelDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1237DE57A624736CB3FD0A3C4CBE975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713D3C8536BCD7BC822E53A524ADD169 /* Pods-AttributedLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AttributedLabelDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttributedLabelDemo/Pods-AttributedLabelDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AttributedLabelDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408C92D7F95B9F1FAB4EA1AA8373D3D5 /* Build configuration list for PBXNativeTarget "Pods-AttributedLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1237DE57A624736CB3FD0A3C4CBE975 /* Debug */,
+				85819DCC7CE390DAFB1238C524139B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B1CEBC9AECE64DB5ECB305E671AFB6 /* Build configuration list for PBXNativeTarget "TYAttributedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A475B539878C9902EDC7BFF7E432652 /* Debug */,
+				5D52E0C53C3D6116CC217362BD8D42F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
